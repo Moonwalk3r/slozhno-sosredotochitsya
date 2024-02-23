@@ -104,24 +104,24 @@
 
   .layout-title-heading__content,
   .block-content,
-  .block-four__layout-subtitle {
+  .block-img__layout-subtitle {
     margin-block-start: 60px;
   }
 
-  .block-four {
+  .block-img {
     grid-column: 1 / span 3;
     grid-row: 9 / span 1;
     display: grid;
     grid-gap: 20px;
   }
 
-  .block-four > img {
+  .block-img > img {
     max-width: 100%;
     height: 100%;
     display: block;
   }
 
-  .block-four__layout-subtitle {
+  .block-img__layout-subtitle {
     grid-column: 1 / span 3;
     grid-row: 1 / span 1;
   }
@@ -199,7 +199,7 @@
   }
 
   .accent-block-right {
-    margin-block-start: 162px;
+    margin-block-start: 50px;
   }
 }
 
@@ -236,7 +236,7 @@
 
   .layout-title-heading__content,
   .block-content,
-  .block-four__layout-subtitle {
+  .block-img__layout-subtitle {
     margin-block-start: 30px;
   }
 
@@ -244,7 +244,7 @@
     font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   }
 
-  .block-four {
+  .block-img {
     display: flex;
     flex-direction: column;
     grid-gap: 10px;
@@ -375,7 +375,7 @@
 
 .layout-title-heading__content {
   grid-column: 1 / span 1;
-  grid-row: 3 / span 1;
+  grid-row: 1 / span 1;
 }
 
 .heading__content {
@@ -403,27 +403,27 @@
   grid-row: 1 / span 1;
 }
 
-.block-content__layout-article-one {
+.block-content__layout-article-cloud {
   grid-column: 2 / span 2;
   grid-row: 2 / span 1;
 }
 
-.block-content__layout-article-two {
+.block-content__layout-article-music {
   grid-column: 2 / span 2;
   grid-row: 3 / span 1;
 }
 
-.block-content__layout-article-content {
+.block-content__layout-article-walk {
   grid-column: 2 / span 2;
   grid-row: 4 / span 1;
 }
 
-.block-content__layout-article-four {
+.block-content__layout-article-eat {
   grid-column: 2 / span 2;
   grid-row: 5 / span 1;
 }
 
-.block-content__layout-article-five {
+.block-content__layout-article-reed {
   grid-column: 2 / span 2;
   grid-row: 6 / span 1;
 }
@@ -433,7 +433,18 @@
   font-style: normal;
   line-height: 130%;
 }
-
+.paragraph-text__layout-multi {
+  grid-column: 1 / span 1;
+  grid-row: 2 / span 1;
+}
+.paragraph-text__layout-sugar {
+  grid-column: 2 / span 1;
+  grid-row: 2 / span 1;
+}
+.paragraph-text__layout-gadget {
+  grid-column: 3 / span 1;
+  grid-row: 2 / span 1;
+}
 .paragraph-heading__title {
   font-weight: 700;
 }
