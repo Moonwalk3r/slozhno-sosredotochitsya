@@ -108,6 +108,18 @@
     margin-block-start: 60px;
   }
 
+  .block-img__layout-subtitle {
+    grid-column: 1 / span 3;
+    grid-row: 1 / span 1;
+  }
+
+  .img {
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
   .block-img {
     grid-column: 1 / span 3;
     grid-row: 9 / span 1;
@@ -121,16 +133,8 @@
     display: block;
   }
 
-  .block-img__layout-subtitle {
-    grid-column: 1 / span 3;
-    grid-row: 1 / span 1;
-  }
   .img-contain {
     object-fit: contain;
-  }
-
-  .img-cover {
-    object-fit: cover;
   }
 
   .sunset {
@@ -251,7 +255,7 @@
   }
 
   .text-rec {
-    left: 304px;
+    left: 295px;
     top: 10px;
   }
 }
@@ -489,6 +493,7 @@
 
   .accent-block-right {
     grid-column: span 1;
+    margin-block-start: 10px;
   }
 
   .main {
